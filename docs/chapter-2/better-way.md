@@ -8,3 +8,5 @@ What a better way needs to do:
 - See what needs our attention.
 - Get completed changes into the codebase.
 - Repeat the workflows that work.
+
+These map to the app's parallel sessions, projects, [Agent Merge](agent-merge.md) and [automations](automate.md).

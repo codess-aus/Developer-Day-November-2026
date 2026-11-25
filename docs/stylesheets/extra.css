@@ -85,6 +85,26 @@
   color: var(--md-default-fg-color);
 }
 
+/* Hero thumbnails: fixed 16:9 frame so every card lines up */
+.chapter-card img,
+.thumb-placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+  border-radius: 0.35rem;
+}
+
+.thumb-placeholder {
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  border: 2px dashed var(--ddn-purple);
+  background: linear-gradient(135deg, var(--ddn-navy) 0%, #2a1a6e 100%);
+  color: #ffffff;
+}
+
 /* Respect users who ask for less motion */
 @media (prefers-reduced-motion: reduce) {
   * {
