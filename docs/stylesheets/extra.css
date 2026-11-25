@@ -1,0 +1,95 @@
+/* Electricity and power theme: deep navy and electric purple,
+   with volt yellow and cyan as the "spark" accents. */
+
+:root {
+  --ddn-navy: #0b1030;         /* deepest navy, page and header */
+  --ddn-navy-2: #141b4d;       /* raised surface */
+  --ddn-purple: #6d28d9;       /* electric purple */
+  --ddn-violet: #b9a6ff;       /* light violet, readable on navy */
+  --ddn-volt: #ffe14d;         /* volt yellow spark */
+  --ddn-cyan: #38e1ff;         /* arc cyan */
+}
+
+/* Light mode: white page; dark purple links keep AA contrast (> 7:1) */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--ddn-navy);
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--ddn-purple);
+  --md-typeset-a-color: #5b21b6;
+  --md-code-bg-color: #f0eefc;
+}
+
+/* Dark mode: navy page, violet links, volt yellow hover */
+[data-md-color-scheme="slate"] {
+  --md-hue: 235;
+  --md-default-bg-color: var(--ddn-navy);
+  --md-default-bg-color--light: var(--ddn-navy-2);
+  --md-primary-fg-color: var(--ddn-navy);
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--ddn-volt);
+  --md-typeset-a-color: var(--ddn-violet);
+  --md-code-bg-color: var(--ddn-navy-2);
+  --md-footer-bg-color: var(--ddn-navy);
+}
+
+/* Header fades from navy into purple, with a charged "current" line below */
+.md-header,
+.md-tabs {
+  background: linear-gradient(90deg, var(--ddn-navy) 0%, #2a1a6e 100%);
+}
+
+.md-header {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, var(--ddn-cyan), var(--ddn-purple), var(--ddn-volt)) 1;
+}
+
+.md-header__button.md-logo img {
+  height: 1.6rem;
+}
+
+/* Slides scale with the viewport and never overflow on phones */
+.md-typeset img.slide {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 16px rgb(109 40 217 / 0.35);
+}
+
+/* Chapter cards: one column on phones, grid on wide screens */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.chapter-card {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--ddn-purple);
+  border-radius: 0.5rem;
+  background: var(--md-code-bg-color);
+}
+
+.chapter-card:hover,
+.chapter-card:focus-visible {
+  border-left-color: var(--ddn-volt);
+  box-shadow: 0 0 12px rgb(255 225 77 / 0.35);
+}
+
+.chapter-card strong {
+  display: block;
+  color: var(--md-default-fg-color);
+}
+
+/* Respect users who ask for less motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
