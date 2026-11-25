@@ -1,0 +1,78 @@
+site_name: Developer Day November 2026
+site_description: Developer Day November 2026
+site_url: https://codess-aus.github.io/Developer-Day-November-2026/
+repo_url: https://github.com/codess-aus/Developer-Day-November-2026
+repo_name: Developer-Day-November-2026
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  # Two palettes give us the light/dark switch. Material remembers the choice
+  # in localStorage and defaults to the visitor's OS preference.
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs        # chapters become top tabs on wide screens
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - 1. GitHub Universe TLDR:
+      - chapter-1/index.md
+      - AI is accelerating software development: chapter-1/ai-accelerating.md
+      - GitHub evolves with how developers build: chapter-1/github-evolves.md
+      - Simpler access to AI: chapter-1/simpler-access.md
+      - Copilot Projects: chapter-1/copilot-projects.md
+      - Copilot Automations: chapter-1/copilot-automations.md
+      - Copilot Fusion: chapter-1/copilot-fusion.md
+      - AI Scan for repositories: chapter-1/ai-scan.md
+      - Faster development, with control: chapter-1/faster-development.md
+  - 2. GitHub Copilot Chat, GitHub Copilot App and Coding and Review Agents:
+      - chapter-2/index.md
+      - From Idea to Merged: chapter-2/idea-to-merged.md
+      - AI changed the unit of interaction: chapter-2/unit-of-interaction.md
+      - A better way: chapter-2/better-way.md
+      - The GitHub Copilot app: chapter-2/copilot-app.md
+      - Multitasking: chapter-2/multitasking.md
+      - Canvases: chapter-2/canvas.md
+      - Agent Merge: chapter-2/agent-merge.md
+      - Automate repetitive work: chapter-2/automate.md
+      - HydraFusion: chapter-2/hydrafusion.md
+  - 3. Secure Delivery with GitHub Advanced Security:
+      - chapter-3/index.md
+  - 4. App Modernisation with GitHub Copilot:
+      - chapter-4/index.md
+  - 5. Agentic Engineering past the pilot:
+      - chapter-5/index.md
