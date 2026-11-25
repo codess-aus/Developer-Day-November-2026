@@ -94,3 +94,27 @@ nav:
       - "Try it: the Modernize CLI": chapter-4/modernize-cli.md
   - 5. Agentic Engineering past the pilot:
       - chapter-5/index.md
+      - "Agentic Engineering past the pilot": chapter-5/past-the-pilot.md
+      - "How many commits did GitHub receive last year?": chapter-5/commits-last-year.md
+      - "12 months on": chapter-5/twelve-months-on.md
+      - "1.225 billion commits a week": chapter-5/billions.md
+      - "We automated authorship": chapter-5/automated-authorship.md
+      - "The bottleneck moved": chapter-5/bottleneck-moved.md
+      - "Code generation got cheap": chapter-5/code-gen-got-cheap.md
+      - "Verification did not": chapter-5/verification-did-not.md
+      - "The new GitHub flow": chapter-5/new-flow.md
+      - "Every agent runs on three new capabilities": chapter-5/new-capabilities.md
+      - "Fusion across many models": chapter-5/fusion.md
+      - "Build anywhere, govern everywhere": chapter-5/govern-anywhere.md
+      - "Verification is the new bottleneck": chapter-5/verification-bottleneck.md
+      - "Code Quality": chapter-5/code-quality.md
+      - "Copilot code review": chapter-5/code-review.md
+      - "AI scan for PRs and repos": chapter-5/ai-scan-prs.md
+      - "AI secret detection": chapter-5/ai-secret-detection.md
+      - "License compliance": chapter-5/license-compliance.md
+      - "Agentic Autofix": chapter-5/agentic-autofix.md
+      - "The volume problem": chapter-5/volume.md
+      - "Agent Merge": chapter-5/agent-merge.md
+      - "To build software, you need the whole process": chapter-5/whole-process.md
+      - "Human pace and agentic pace": chapter-5/human-vs-agentic-pace.md
+      - "The takeaways": chapter-5/takeaways.md

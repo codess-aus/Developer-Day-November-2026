@@ -29,9 +29,9 @@ Modernizing apps to unlock AI transformation, eight slides plus a CLI guide.
 </a>
 
 <a class="chapter-card" href="chapter-5/">
-<div class="thumb-placeholder" aria-hidden="true">Hero image to come</div>
+<img src="assets/34-agentic-engineering-past-the-pilot.png" alt="" loading="lazy">
 <strong>5. Agentic Engineering past the pilot</strong>
-Coming soon.
+Verification, governance and scale, with 22 slides and two video clips.
 </a>
 
 </div>
