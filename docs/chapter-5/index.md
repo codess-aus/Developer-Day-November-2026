@@ -1,16 +1,24 @@
 # 5. Agentic Engineering past the pilot
 
-!!! info "Coming soon"
-    Slides and hero images for this chapter will be added shortly.
+How 4th Coffee moved from a successful Copilot pilot to an agentic software delivery system.
 
-## Latest from GitHub
+- [The scale of change](scale-of-change.md)
+- [The bottleneck moved](bottleneck.md)
+- [From planning meeting to pull request](planning-to-pr.md)
+- [Parallel agents and continuous context](parallel-agents.md)
+- [Verification is the new bottleneck](verification.md)
+- [Verify every pull request](verify-prs.md)
+- [Let Agent Merge keep work green](agent-merge.md)
+- [One connected engineering process](whole-process.md)
+- [Takeaways](takeaways.md)
+- [Choose-your-workshop resources](resources.md)
 
-GitHub's guide to agentic engineering says the bottleneck is moving from writing code to reviewing it. Its suggestions include:
+## The enterprise playbook
 
-- Ask Copilot to create issues with acceptance criteria, and assign low-complexity tasks to Copilot.
-- Use stacked pull requests so dependent work is reviewed in smaller pieces.
-- Let Copilot code review, GitHub Code Quality, agentic autofix and [Agent Merge](../chapter-2/agent-merge.md) clear routine checks before a person opens the diff.
-- Use enterprise managed settings to carry policies and tools across Copilot surfaces.
-- Track adoption per agent with the Copilot usage metrics API, which now reports agent app activity.
+- Start with an outcome, acceptance criteria and a connected context.
+- Move low-complexity, well-understood work to agents; keep people on decisions and refinement.
+- Give agents isolated environments and enough context to plan, build and verify in parallel.
+- Treat review, testing, security and license checks as a continuous part of the process.
+- Use automation to clear routine work and keep pull requests ready to merge.
 
 Sources: [Beyond code generation: A developer's guide to agentic engineering](https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/), [Copilot usage metrics API adds agent app activity](https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity/)
