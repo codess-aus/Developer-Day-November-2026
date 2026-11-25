@@ -94,3 +94,13 @@ nav:
       - "Try it: the Modernize CLI": chapter-4/modernize-cli.md
   - 5. Agentic Engineering past the pilot:
       - chapter-5/index.md
+      - The scale of change: chapter-5/scale-of-change.md
+      - The bottleneck moved: chapter-5/bottleneck.md
+      - From planning meeting to pull request: chapter-5/planning-to-pr.md
+      - Parallel agents and continuous context: chapter-5/parallel-agents.md
+      - Verification is the new bottleneck: chapter-5/verification.md
+      - Verify every pull request: chapter-5/verify-prs.md
+      - Let Agent Merge keep work green: chapter-5/agent-merge.md
+      - One connected engineering process: chapter-5/whole-process.md
+      - Takeaways: chapter-5/takeaways.md
+      - Choose-your-workshop resources: chapter-5/resources.md

@@ -29,11 +29,15 @@ Modernizing apps to unlock AI transformation, eight slides plus a CLI guide.
 </a>
 
 <a class="chapter-card" href="chapter-5/">
-<div class="thumb-placeholder" aria-hidden="true">Hero image to come</div>
+<img src="assets/55-takeaways.png" alt="" loading="lazy">
 <strong>5. Agentic Engineering past the pilot</strong>
-Coming soon.
+Start with an outcome, connect context and automate the whole process.
 </a>
 
 </div>
+
+## Hands-on workshop
+
+[Choose Your Workshop](https://codess-aus.github.io/Choose-your-workshop/){ .md-button .md-button--primary }
 
 Use the sun and moon button in the header to switch between light and dark mode.
