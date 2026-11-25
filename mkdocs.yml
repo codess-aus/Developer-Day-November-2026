@@ -72,7 +72,25 @@ nav:
       - HydraFusion: chapter-2/hydrafusion.md
   - 3. Secure Delivery with GitHub Advanced Security:
       - chapter-3/index.md
+      - Securing the Agent-Native Engineering System: chapter-3/agentic-security.md
+      - More vulnerabilities, faster attacks: chapter-3/more-vulnerabilities.md
+      - Developer-friendly; enterprise-grade: chapter-3/enterprise-grade.md
+      - Making security ubiquitous: chapter-3/ubiquitous-security.md
+      - Agents write secure code by default: chapter-3/secure-by-default.md
+      - Collaborate with security agents: chapter-3/collaborate.md
+      - Analyze any language: chapter-3/analyze-any-language.md
+      - Bulk-fix issues: chapter-3/bulk-fix.md
+      - "Summary: how to turn it on": chapter-3/summary.md
   - 4. App Modernisation with GitHub Copilot:
       - chapter-4/index.md
+      - Modernization accelerates AI transformation: chapter-4/ai-transformation.md
+      - Azure Catalyst: chapter-4/azure-catalyst.md
+      - Azure Catalyst outcomes: chapter-4/azure-catalyst-outcomes.md
+      - GitHub Copilot modernization: chapter-4/copilot-modernization.md
+      - Support for your project ecosystem: chapter-4/project-ecosystem.md
+      - Modernization Golden Path: chapter-4/golden-path.md
+      - One legacy app, end to end: chapter-4/end-to-end.md
+      - Modernization is not the finish line: chapter-4/not-the-finish-line.md
+      - "Try it: the Modernize CLI": chapter-4/modernize-cli.md
   - 5. Agentic Engineering past the pilot:
       - chapter-5/index.md
